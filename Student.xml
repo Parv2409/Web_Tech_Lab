@@ -1,0 +1,40 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/css" href="CSS/Student.css"?>
+<!DOCTYPE Student SYSTEM "Student.dtd">
+<Student>
+<Name>Abhishek Gupta</Name>
+<RollNumber>1802921010</RollNumber>
+<Semester>Vth</Semester>
+<Section>A</Section>
+<Department>
+<DeptName>Electrical And Electronics Engineering</DeptName>
+<Subject>
+<SubjectName>Signal System</SubjectName>
+<Faculty>Dr. Brijesh</Faculty>
+</Subject>
+</Department>
+
+<Name>Parv Rastogi</Name>
+<RollNumber>1802913105</RollNumber>
+<Semester>Vth</Semester>
+<Section>B</Section>
+<Department>
+<DeptName>Information Technology</DeptName>
+<Subject>
+<SubjectName>Web Technology</SubjectName>
+<Faculty>Sakshi</Faculty>
+</Subject>
+</Department>
+
+<Name>Saumya</Name>
+<RollNumber>1802931139</RollNumber>
+<Semester>Vth</Semester>
+<Section>C</Section>
+<Department>
+<DeptName>Electronics And Communication Engineering</DeptName>
+<Subject>
+<SubjectName>Signal System</SubjectName>
+<Faculty>Dr. Brijesh</Faculty>
+</Subject>
+</Department>
+</Student>

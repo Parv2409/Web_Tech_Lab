@@ -1,0 +1,14 @@
+Student{
+    background-color: #b3ffff;
+    padding: 5%;
+}
+Name{
+    font-size: 40px;
+    display: block;
+    margin-left: 20px;
+}
+RollNumber,Semester,Section,DeptName,SubjectName,Faculty{
+    font-size: 25px;
+    display: block;
+    margin-left: 20px;
+}

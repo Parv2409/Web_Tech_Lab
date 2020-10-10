@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Form</title>
+
+    <style>
+        span {
+            color: red;
+        }
+        div{
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body style="background-color: cornsilk; line-height: 22px; color: black;">
+    <h1 align="center">Student Registration Form</h1>
+    <u><h2 align="center">PLEASE FILL AND SUBMIT</h2></u>
+    <div>
+                <form method="" action="">
+                    <table align="center">
+                        <tr>
+                            <th>First Name <span>*</span></th>
+                            <td><input type="text" placeholder="Parv" maxlength="4" style="width: 35%;">  (Max 30 characters a-z and A-Z)</td>
+                        </tr>
+
+                        <tr>
+                            <th>Last Name <span>*</span></th>
+                            <td><input type="text" placeholder="Rastogi" maxlength="7" style="width: 35%;">  (Max 30 characters a-z and A-Z)</td>
+                        </tr>
+
+                        <tr>
+                            <th>Date Of Birth</th>
+                            <<td><select name="Date">
+                                    <option value="" selected="selected" disabled="disabled">Date</option>
+                                    <option value="1">01</option>
+                                    <option value="2">05</option>
+                                    <option value="3">10</option>
+                                    <option value="4">15</option>
+                                </select>
+                                <select name="Month">
+                                    <option value="" selected="selected" disabled="disabled">Month</option>
+                                    <option value="1">January</option>
+                                    <option value="2">April</option>
+                                    <option value="3">July</option>
+                                    <option value="4">October</option>
+                                </select>
+                                <select name="Year">
+                                    <option value="" selected="selected" disabled="disabled">Year</option>
+                                    <option value="1">1998</option>
+                                    <option value="2">1999</option>
+                                    <option value="3">2000</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Email <span>*</span></th>
+                            <td><input type="text" required/></td>
+                        </tr>
+                        <tr>
+                            <th>Contact no.</th>
+                            <td>
+                                <input type="text" placeholder="+91" maxlength="4" style="width: 9%;"><input type="number" /> (10 digit number)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Gender</th>
+                            <td>
+                                <input type="radio" name="g" value="m" />Male
+                                <input type="radio" name="g" value="f" />Female
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <th>Address</th>
+                            <td><textarea rows="10" cols="20"></textarea></td>
+                        </tr>
+
+                        <tr>
+                            <th>City <span>*</span></th>
+                            <td><input type="text" name="fn" id="fn1" maxlength="10" required /> (Max 30 characters a-z and A-Z)</td>
+                        </tr>
+
+                        <tr>
+                            <th>Pincode</th>
+                            <td><input type="text" name="fn" id="fn1" maxlength="10" /> (6 Digit Number)</td>
+                        </tr>
+
+                        <tr>
+                            <th>State <span>*</span></th>
+                            <td><input type="text" name="fn" id="fn1" maxlength="10" required /> (Max 30 characters a-z and A-Z)</td>
+                        </tr>
+
+                        <tr>
+                            <th>Country</th>
+                            <td><input type="text" placeholder="India" maxlength="5" style="width: 35%;"></td>
+                        </tr>
+
+                        <tr>
+                            <th>Hobbies</th>
+                            <td>
+                                <input type="radio" name="g" value="D" />Dancing
+                                <input type="radio" name="g" value="S" />Singing
+                                <input type="radio" name="g" value="d" />Drawing
+                                <input type="radio" name="g" value="s" />Sketching
+                                <input type="radio" name="g" value="o" />Others
+                                <input type="text" name="fn" id="fn1" maxlength="10" />
+                            </td>
+                        </tr>
+
+                        <br><br>
+
+                        <tr>
+                            <td colspan="2" align="center"><input type="submit" value="Reset" />
+                                <input type="reset" value="submit" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </body>
+</html>

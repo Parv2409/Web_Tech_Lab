@@ -1,0 +1,9 @@
+<!ELEMENT Student(Name,RollNumber,Semester,Section,Department)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT RollNumber (#PCDATA)>
+<!ELEMENT Semester (#PCDATA)>
+<!ELEMENT Section (#PCDATA)>
+<!ELEMENT Department(DeptName,Subject)>
+<!ELEMENT Subject(SubjectName,Faculty)>
+<!ELEMENT SubjectName (#PCDATA)>
+<!ELEMENT Faculty (#PCDATA)>
